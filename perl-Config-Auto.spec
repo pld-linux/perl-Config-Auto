@@ -1,11 +1,12 @@
 #
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
-
+#
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Config
 %define	pnam	Auto
 Summary:	Config::Auto - Magical config file parser
+Summary(pl):	Config::Auto - magiczny parser plików konfiguracyjnych
 Name:		perl-Config-Auto
 Version:	0.06
 Release:	1
@@ -20,7 +21,10 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Magical config file parser
+Magical config file parser.
+
+%description -l pl
+Magiczny parser plików konfiguracyjnych.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
