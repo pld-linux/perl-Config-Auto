@@ -5,7 +5,7 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Config
 %define	pnam	Auto
-Summary:	Config::Auto - Magical config file parser
+Summary:	Config::Auto - magical config file parser
 Summary(pl):	Config::Auto - magiczny parser plików konfiguracyjnych
 Name:		perl-Config-Auto
 Version:	0.06
