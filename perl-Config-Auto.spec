@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Config
-%define	pnam	Auto
+%define		pdir	Config
+%define		pnam	Auto
 Summary:	Config::Auto - magical config file parser
 Summary(pl):	Config::Auto - magiczny parser plików konfiguracyjnych
 Name:		perl-Config-Auto
