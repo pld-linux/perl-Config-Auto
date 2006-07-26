@@ -15,6 +15,7 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	eaa65dc69db8b57c495f34032f8a0d32
+URL:		http://search.cpan.org/dist/Config-Auto/
 %if %{with tests}
 BuildRequires:	perl-Config-IniFiles
 %endif
