@@ -6,7 +6,7 @@
 %define		pdir	Config
 %define		pnam	Auto
 Summary:	Config::Auto - magical config file parser
-Summary(pl):	Config::Auto - magiczny parser plików konfiguracyjnych
+Summary(pl.UTF-8):   Config::Auto - magiczny parser plikÃ³w konfiguracyjnych
 Name:		perl-Config-Auto
 Version:	0.18
 Release:	1
@@ -27,8 +27,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Magical config file parser.
 
-%description -l pl
-Magiczny parser plików konfiguracyjnych.
+%description -l pl.UTF-8
+Magiczny parser plikÃ³w konfiguracyjnych.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
