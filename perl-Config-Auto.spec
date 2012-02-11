@@ -8,16 +8,18 @@
 Summary:	Config::Auto - magical config file parser
 Summary(pl.UTF-8):	Config::Auto - magiczny parser plików konfiguracyjnych
 Name:		perl-Config-Auto
-Version:	0.38
+Version:	0.42
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/Config/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	cf6fbd37e27726dd8373faa13a85e31f
+# Source0-md5:	baa0907e5c79c0bf8c91cfe8b56577de
 URL:		http://search.cpan.org/dist/Config-Auto/
 %if %{with tests}
 BuildRequires:	perl-Config-IniFiles
+BuildRequires:	perl-IO-String
+BuildRequires:	perl-YAML
 %endif
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
